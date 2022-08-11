@@ -8,7 +8,7 @@ The purpose of this analysis was to mimic real world issues with fixing someone 
 
 ## Results
 
-- Most of the stocks in 2017  had a positive performance. As seen in this picture VBA_Challenge_2017.png, TERP was the only stock with a negative return. On the other hand, in 2018, most of the stocks had a negative return. As seen in this picture https://github.com/samnougues/stockanalysis/blob/0f415119fee62a10ca85de1bcc0f781f3897b7e2/VBA_Challenge_2018.png, the only stocks to have a positive return were ENPH and RUN. 
+- Most of the stocks in 2017  had a positive performance. As seen in this picture (https://github.com/samnougues/stockanalysis/blob/2ee446cb1cb3bb21f4b7d50d1c5bb89e48359fac/VBA_Challenge_2017.png), TERP was the only stock with a negative return. On the other hand, in 2018, most of the stocks had a negative return. As seen in this picture https://github.com/samnougues/stockanalysis/blob/0f415119fee62a10ca85de1bcc0f781f3897b7e2/VBA_Challenge_2018.png, the only stocks to have a positive return were ENPH and RUN. 
 
 - The times for the results of the refactored code were much better than that of the original code. This time difference occurred because the data refers to the data that precedes it, making it easier to execute. For example, the old code did not declare Dim tickerVolumes(12) As Long. The old code also switches to the j variable, which may slow execution. 
 
